@@ -1,0 +1,171 @@
+<html>
+<head>
+<title>FurtherDetails</title>
+<style type="text/css">
+ #menu-bar-container{
+                        width:100%;
+                        height:100px;
+                        background-color:#307FDA;
+                        }
+ 
+         
+  #logo1{
+       margin-top:18px;
+       width:250px;
+        float:right;       
+       margin-right:10px;
+       }
+   
+ #c2 a{
+          text-decoration:none;
+          color:#1A309F;   
+          font-weight:bold;
+          font-size:25px;
+          position:relative;
+          top:30px;
+          left:0px;
+          border-right:1px solid #172157;
+          padding:0 15px;
+            }  
+       
+        #c2 a:hover{ 
+                       width:100px;
+                      background-color: #37D7F7; }
+
+
+#c2 b{
+          text-decoration:none;
+          color:#1A309F;   
+          font-weight:bold;
+          font-size:25px;
+          position:relative;
+          top:30px;
+          right:-650px;
+          
+            }  
+
+ #c2 b:hover{ 
+                       width:100px;
+                      background-color: #37D7F7; }
+
+#UN{
+     position:relative;
+     top:40px;
+     left:100px;
+      
+          font-size:20px;
+      }
+   #ps{
+      position:relative;
+      top:24px;
+      left:115px;
+            
+      font-size:20px;
+        }
+
+#e{
+position:relative;
+      top:8px;
+      left:130px;
+            
+      font-size:20px;
+        }
+#cn{
+position:relative;
+      top:-8px;
+      left:122px;
+            
+      font-size:20px;
+        }
+#f{
+position:relative;
+      top:-22px;
+      left:69px;
+            
+      font-size:20px;
+        }
+#ut{
+position:relative;
+      top:-29px;
+      left:76px;
+            
+      font-size:20px;
+        }
+#fe{
+position:relative;
+      top:-30px;
+      left:57px;
+            
+      font-size:20px;
+        }
+#ul{
+position:relative;
+      top:-34px;
+      left:130px;
+            
+      font-size:20px;
+        }
+input[type=submit] {
+  width: 15%;
+  background-color:#307FDA;
+  color: white;
+  padding: 10px 10px;
+  margin: 8px 0 0 210px;;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+    input[type=submit]:hover {
+  background-color: #3F25A9;
+}
+ input{
+  padding: 5px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+ 
+}
+</style>
+</head>
+<body style="background: url(https://images.pexels.com/photos/304664/pexels-photo-304664.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)">
+<div id="menu-bar-container">
+      <div id="menu-bar">
+         <img id="logo1" src="pictures\sbi1.png"></div>
+        
+<div id="c2">
+       <a href="index.html">HOME</a>
+       <a href="#sign-up">NewAccount</a>
+      
+       <b href="index.html">Logout</b>
+      </div>
+  </div>
+</div>
+  
+<form action="account" >
+  
+  <p id="UN">UserName: <input type="text" name="name" placeholder="your name"></p>
+  <p id="ps">Adharno: <input type="number"  name="adhar" placeholder="12-digits"></p>
+  <p id="e">E-Mail: <input type="e-mail" name="email" placeholder="1231hcjdshjd@gmail.com"</p>
+  <p id="cn">Contact: <input type="number" name="mobileno" placeholder="10-digits"></p>
+  <p id="f">Father's name: <input type="text" name="fathername"></p>
+  <p id="ut">Account-type:
+           <select id="sd" name="accounttype">
+           <option>Saving</option>
+           <option>basic checking</option>
+           <option>interest-bearing checking</option>
+           <option>money market deposit</option>
+           </select></p>
+ <p id="fe">Submit-balance: <input type="number" name="balance"></p>
+ <p id="ul">Gender:
+           <select id="sj" name="gender">
+           <option>Male</option>
+           <option>Female</option>
+           <option>Other</option>
+           </select></p>
+  <p id="sb"><input type="submit" value="Create"></p>
+ </form>
+
+</body>
+</html>
