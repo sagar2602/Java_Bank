@@ -1,0 +1,125 @@
+
+<web-app>
+  <servlet>
+    <servlet-name>sample1</servlet-name>
+    <servlet-class>Signup</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>sample1</servlet-name>
+    <url-pattern>/Signup1</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+    <servlet-name>sample</servlet-name>
+    <servlet-class>LoginServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>sample</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+
+ <servlet>
+    <servlet-name>sample2</servlet-name>
+    <servlet-class>NewAccount</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>sample2</servlet-name>
+    <url-pattern>/account</url-pattern>
+  </servlet-mapping>
+ 
+ <servlet>
+    <servlet-name>sample3</servlet-name>
+    <servlet-class>Credit</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>sample3</servlet-name>
+    <url-pattern>/addbalance</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>sample4</servlet-name>
+    <servlet-class>VerifyCredit</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>sample4</servlet-name>
+    <url-pattern>/verifycredit</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>sample5</servlet-name>
+    <servlet-class>VerifyTransfer</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>sample5</servlet-name>
+    <url-pattern>/ReceiverServlet1</url-pattern>
+  </servlet-mapping>
+
+ <servlet>
+    <servlet-name>sample6</servlet-name>
+    <servlet-class>ChangePassword</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>sample6</servlet-name>
+    <url-pattern>/changepass</url-pattern>
+  </servlet-mapping>
+
+<servlet>
+    <servlet-name>sample7</servlet-name>
+    <servlet-class>UpdateAccounData</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>sample7</servlet-name>
+    <url-pattern>/update</url-pattern>
+  </servlet-mapping>
+
+<servlet>
+    <servlet-name>sample8</servlet-name>
+    <servlet-class>Debit1</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>sample8</servlet-name>
+    <url-pattern>/cutbalance</url-pattern>
+  </servlet-mapping>
+
+<servlet>
+    <servlet-name>sample9</servlet-name>
+    <servlet-class>Verify</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>sample9</servlet-name>
+    <url-pattern>/verify</url-pattern>
+  </servlet-mapping>
+
+<servlet>
+    <servlet-name>sample10</servlet-name>
+    <servlet-class>VerifiedDebitServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>sample10</servlet-name>
+    <url-pattern>/ReceiverServlet</url-pattern>
+  </servlet-mapping>
+
+
+<servlet>
+    <servlet-name>sample11</servlet-name>
+    <servlet-class>TransferMoney</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>sample11</servlet-name>
+    <url-pattern>/transfer</url-pattern>
+  </servlet-mapping>
+
+
+</web-app>
